@@ -1,0 +1,200 @@
+
+div{
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+.text1 .inner-text1{
+    color: rgb(155, 155, 155);
+}
+.text1 .inner-text2{
+    color: white;
+    transition:.3s all;
+}
+.text1 .inner-text2:hover{
+    color: yellow;
+    filter: drop-shadow(10px 7px 10px yellow);
+    cursor:pointer;
+}
+.text1 .inner-text3{
+    color: rgb(190, 190, 190);
+    height: 70px;
+}
+
+.price del{
+    color: rgb(155, 155, 155);
+}
+.price h2{
+    color: white;
+}
+.discount p{
+    height: auto;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 4px;
+    background-color: red;
+    border-radius: 10px;
+    
+}
+.discount{
+
+    color: white;
+    position: relative;
+    top: 0;
+    padding: 0%;
+    width: auto;
+    height: auto;
+}
+.img1{
+    position: relative;
+}
+p{
+    margin:0px;
+}
+.old-price{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    text-align: center;
+}
+.old-price del{
+    font-size: 20px;
+}
+.ab-discount-N{
+    cursor: default;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size:15px ;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(122, 160, 18);
+    transition: all .3s;
+}
+.ab-discount-N p{
+    padding: 5.6px;
+}
+.ab-discount-N:hover{
+    background-color: rgb(96, 126, 15);
+    cursor: pointer;
+}
+.ab-discount-P{
+    cursor: default;
+    top: 35px;
+    right: 15px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgb(219, 0, 62);
+    transition: all .3s;
+}
+.ab-discount-P p{
+    padding: 5px;
+    color: white;
+}
+.ab-discount-P:hover{
+    background-color: rgb(179, 1, 51);
+    cursor: pointer;
+}
+.ab-discount{
+    cursor: default;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    align-items: center;
+    position:absolute;
+    background-color: red;
+    border-radius: 5px;
+    top: 0px;
+    right: 15px;
+    transition: all .3s;
+}
+.ab-discount:hover{
+    background-color: rgb(209, 0, 0);
+    cursor: pointer;
+}
+.basket{
+    margin-top: auto;
+    height: 50px;
+    color: white;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 204, 0);
+    transition: all .3s;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+.basket:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.103);
+}
+.basket p{
+    display: flex;
+
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+/* .basket-no-discount{
+
+    height: 50px;
+    color: white;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 204, 0);
+    transition: all .3s;
+    position: absolute;
+    bottom: -10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.basket-no-discount p{
+    display: flex;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    
+} */
+.row-no-discount{
+    position: relative;
+
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100px;
+}
+.row-no-discount > *{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-3{
+    gap: 5px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    position: relative;
+    transition: all .3s;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.col-3:hover{
+    border-radius: 20px;
+    border: 1px yellow solid;
+}
+.column{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
